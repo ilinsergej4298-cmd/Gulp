@@ -1,8 +1,13 @@
 .GreenButton{
     border: none;
     background-color: var(--green50);
-    width: 135px;
-    height: 59px;
     border-radius:8px;
     padding: 16 24;
+    width: 135px;
+    height: 59px;
+
+     @media (max-width: 768px)  {
+            width: 108px;
+            height: 45px;
+        }
 }

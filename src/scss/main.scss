@@ -9,12 +9,14 @@
 // ==== 3. Layout ====
 @use 'layout/container';
 @use 'layout/nav';
+@use 'layout/miniblock';
+
 
 // ==== 4. Components ====
 @use 'components/button';
 @use 'components/header';
-@use 'components/card';
 @use 'components/heroblock';
+@use 'components/dopbutton';
 
 body {
   background-color: var(--grey10);
