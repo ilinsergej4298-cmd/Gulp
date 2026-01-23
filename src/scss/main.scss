@@ -8,10 +8,13 @@
 
 // ==== 3. Layout ====
 @use 'layout/container';
+@use 'layout/nav';
 
 // ==== 4. Components ====
 @use 'components/button';
+@use 'components/header';
 @use 'components/card';
+@use 'components/HeroBlock';
 
 body {
   background-color: var(--main-color);

@@ -11,19 +11,21 @@
 <body>
 <h1>Карточки</h1>
 
-@@include('../components/_card.html', {
-"img": "./assets/images/cat1",
-"alt": "Изображение 1",
-"title": "Заголовок 1",
-"text": "Текст описания карточки 1"
+@@include('../components/_header.html',{
+"img": "./assets/images/Logo",
+"LogoText": "SquareUp",
+})
+@@include('../components/_HeroBlock.html',{
+    "BigText": "A Digital Product Studio
+that will Work",
 })
 
-@@include('../components/_card.html', {
+<!-- @@include('../components/_card.html', {
 "img": "./assets/images/cat1",
 "alt": "Изображение 2",
 "title": "Заголовок 2",
 "text": "Текст описания карточки 2"
-})
+}) -->
 
 </body>
 </html>

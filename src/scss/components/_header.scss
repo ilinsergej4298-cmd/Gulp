@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:var(--grey15) ;
+    padding: 20px 0;
+    width: 100%;
+    align-items: center;
+
+    @media (max-width: 1280px)  {
+        
+    }
+
+    nav {
+
+        @media (max-width: 768px)  {
+            display: none;
+        }
+
+    }
+
+    .burger_menu {
+        display: none;
+
+        @media (max-width: 768px)  {
+            display: block;
+        }
+
+        
+    }
+
+}
+.container h2{
+    color: white;
+}
+.container .logo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px,
+}
+.container img{
+    object-fit: cover;
+
+
+}
