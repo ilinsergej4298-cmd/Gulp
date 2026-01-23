@@ -14,8 +14,8 @@
 @use 'components/button';
 @use 'components/header';
 @use 'components/card';
-@use 'components/HeroBlock';
+@use 'components/heroblock';
 
 body {
-  background-color: var(--main-color);
+  background-color: var(--grey10);
 }
