@@ -3,13 +3,24 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    background-color: var(--grey15);
+    background-color: var(--grey10);
+    text-align: center;
+    text-wrap-mode: nowrap;
+    padding-top: 112px;
+    background-image: url(./../images/background_image.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+    margin:0 80px 0 80px ;
+    border:1px solid var(--grey20);
     .TextForMobiles{
         display: none;
     }
     h1{
         font-size: 48px;
-        margin: 112px 0px 0px 0px;
+        
+        font-family: "Barlow-SemiBold", sans-serif;
+        
         @media (max-width: 768px)  {
             font-size: 34px;
         }
@@ -17,11 +28,21 @@
     
 
     @media (max-width: 768px)  {
+        padding-top: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
             .TextForMobiles{
                 display: block;
                 font-size: 16px;
                 color:var(--grey60);
                 padding: 18px 20px;
+                font-family: "Barlow-Regular", sans-serif;
+                margin-left: 16px;
+                text-wrap-mode: wrap;
+                
     }
         }
-}
+    .TwoButtons{
+        margin-top: 50px;
+    }
+}   

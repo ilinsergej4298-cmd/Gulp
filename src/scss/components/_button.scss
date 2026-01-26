@@ -5,9 +5,19 @@
     padding: 16 24;
     width: 135px;
     height: 59px;
+    
 
      @media (max-width: 768px)  {
             width: 108px;
             height: 45px;
         }
+         @media (max-width: 1280px)  {
+            height: 45px;
+            width: 104px;
+        }
+
 }
+.GreenButton:hover{
+    background-color: var(--green95);
+}
+

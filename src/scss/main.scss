@@ -17,7 +17,5 @@
 @use 'components/header';
 @use 'components/heroblock';
 @use 'components/dopbutton';
+@use 'components/companies';
 
-body {
-  background-color: var(--grey10);
-}

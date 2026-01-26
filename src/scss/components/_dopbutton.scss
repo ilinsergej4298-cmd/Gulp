@@ -1,11 +1,20 @@
 .DopButton{
     border: none;
-    background-color: var(--grey30);
+    background-color: var(--grey20);
     border-radius:8px;
     padding: 16 24;
-    width: 88px;
-    height: 38px;
+    height: 58px;
+    width: 137px;
     color:white;
-
-
+    @media (max-width: 1280px)  {
+        height: 45px;
+        width: 103px;
+    }
+    @media (max-width: 768px)  {
+        height: 45px ;
+        width: 103px;
+        }
+}
+.DopButton:hover{
+    background-color: var(--grey60);
 }
