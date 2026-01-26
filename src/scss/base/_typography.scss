@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Barlow-Regular";
+  src: local("Barlow-Regular"),
+    local("Barlow-Regular"),
+    url("/dist/assets/fonts/Barlow-Regular.woff") format("woff"),
+
+}
+@font-face {
+  font-family: "Barlow-Medium";
+  src: local("Barlow-Medium"),
+    local("Barlow-Medium"),
+    url("/dist/assets/fonts/Barlow-Medium.woff") format("woff"),
+
+}
+@font-face {
+  font-family: "Barlow-SemiBold";
+  src: local("Barlow-SemiBold"),
+    local("Barlow-SemiBold"),
+    url("/dist/assets/fonts/Barlow-SemiBold.woff") format("woff"),
+
+}
+
+
+p{
+  color: var(--grey60);
+  font-size: medium;
+}
+body {
+  font-family: "Barlow-Regular", sans-serif;
+  background-color: var(--grey10);
+  
+
+}
+

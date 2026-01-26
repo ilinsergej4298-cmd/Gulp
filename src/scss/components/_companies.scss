@@ -1,0 +1,47 @@
+.Companies{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: var(--grey15);
+    margin-left: 80px;
+    margin-right: 80px;
+    .TextInCurcle{
+        background-color: var(--grey10);
+        padding: 8px 15px;
+        border-radius: 52px;
+
+        h2{
+            color: white;
+            font-size: medium;
+        }
+    }
+
+    .ListOfCompanies{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img{
+            @media (max-width: 1280px)  {
+                width: 200px;
+            }
+
+            @media (max-width: 768px)  {
+                width: 160px; 
+            }
+        }
+        
+
+        @media (max-width: 1280px)  {
+            
+        }
+
+        @media (max-width: 768px)  {
+            flex-wrap: wrap;
+        }
+    }
+
+}
