@@ -1,0 +1,20 @@
+.Block_with_icon{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 532px;
+
+    padding: 50px;
+    background-color: var(--grey15);
+    border:1px solid var(--grey20);
+    h2{
+        margin-top: 40px;
+        color: white;
+    }
+    p{
+        margin-bottom:100px ;
+    }
+    img{
+        width: 88px;
+    }
+}
