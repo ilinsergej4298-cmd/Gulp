@@ -1,0 +1,41 @@
+.SIXBlock_with_icon{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 800px;
+
+    padding: 50px;
+    background-color: var(--grey15);
+    border:1px solid var(--grey20);
+    .clients{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        border:1px solid var(--grey20);
+        padding: 20px;
+        border-radius:8px;
+        justify-items: space-between;
+        align-items: center;
+       .Avatar_and_text{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            
+       }
+    }
+    h2{
+        margin-top: 40px;
+        color: var(--green60);
+    }
+    
+    img{
+        width: 88px;
+    }
+    @media (max-width: 768px)  {
+            width: 600px;
+        }
+    @media (max-width: 1280px)  {
+        width: 650px;
+    }
+}

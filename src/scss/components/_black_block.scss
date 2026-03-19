@@ -9,7 +9,9 @@
     border:1px solid var(--grey20);
     padding-top:120px;
     padding-bottom: 120px;
-
+    background-image: url(./../images/Text_Container.webp);
+    background-position: center;
+    background-repeat: no-repeat;
     @media (max-width: 768px)  {
         padding-top:50px;
         padding-bottom: 50px;
